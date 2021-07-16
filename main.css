@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* Roboto */
+
+
+
+/* Colours 
+color:#B3B3B3 - Light Grey 
+color: #5c5c5c - Dark Grey
+color:#E7667F - Pink  rgba( 231,  102, 127, 0.8);
+color:#68CFAE - Green  */
+
+/* *{
+    margin-left:50px;
+    margin-right:50px; 
+    padding: 10px; 
+}  */
+
+.socialbar{
+    display: flex;
+    justify-content: center;
+}
+    
+.socialbarmenu{
+    height: 15Px;
+    background-color: rgba( 231,  102, 127, 0.8);
+    display: flex; 
+    justify-content:flex-end;
+    align-items: center ;
+    padding: 12px 16px;
+    width: 1004px;
+  }
+
+.fa {
+    color: white;
+    padding: 5px;
+}
+
+.topspace {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 300px;    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+    
+.navbarmenu {
+    background-color: rgba( 231,  102, 127, 0.8);
+    display: flex; 
+    justify-content:flex-start;
+    padding: 12px 16px;
+    width: 1004px;
+  }
+    
+.menu {
+    color: white;
+    font-family:'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #5c5c5c;
+    font-family:'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    color: #5c5c5c;
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    color: #5c5c5c;
+    font-family:'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+p {
+    color: #5c5c5c;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.pagetop{
+    display: flex;
+    justify-content: center;
+}
+
+.latestrecipes{
+    width: 1000px;
+    border: 3px solid #B3B3B3;
+    padding: 12px 16px;
+    min-height: 450px;
+    margin-top: 30px;
+}
+
+.boxtitle{
+    color: #5c5c5c;
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    padding:20px 55px;
+    margin-left:10px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+ul {
+    color: #5c5c5c;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+ol {
+    color: #5c5c5c;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+
+.todo {
+    width: 300px;
+    display: flex; 
+    justify-content:flex-end; 
+}
+
+.thumbnail {
+    width: 250px;
+    border: 3px solid #E7667F; 
+}   
+
+.recipeintro {
+    width: 1000px;
+    border: 1px;
+    padding: 12px 16px;
+    margin-top: 30px;
+}
+
+.recipeimage {
+    width: 500px;
+    border: 3px;
+}
+
+.ingredients{
+    width: 400px;
+    border: 3px solid #B3B3B3;
+    padding: 12px 16px;
+    min-height: 200px;
+    margin-top: 30px;
+}
+
+.wholerecipe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.methodcod {
+    width: 400px;
+    border: 3px solid #B3B3B3;
+    padding: 12px 16px;
+    min-height: 200px;
+    margin-top: 30px;
+}
+
+.ingredientscod {
+    width: 400px;
+    border: 3px solid #B3B3B3;
+    padding: 12px 16px;
+    min-height: 200px;
+    margin-top: 30px;
+}
+
+.methodburger {
+    width: 400px;
+    border: 3px solid #B3B3B3;
+    padding: 12px 16px;
+    min-height: 200px;
+    margin-top: 30px;
+}
+
+.ingredientsburger {
+    width: 400px;
+    border: 3px solid #B3B3B3;
+    padding: 12px 16px;
+    min-height: 200px;
+    margin-top: 30px;
+}
+.method{
+    width: 400px;
+    border: 3px solid #B3B3B3;
+    padding: 12px 16px;
+    min-height: 200px;
+    margin-top: 30px;
+}
+
+.serving {
+    width: 838px;
+    border: 3px solid #B3B3B3;
+    padding: 12px 16px;
+    min-height: 150px;
+    margin-top: 30px;
+}
+
+.pagebottom{
+    display: flex;
+    justify-content: center;
+}
+
+.maylike {
+    width: 838px;
+    border: 3px;
+    height: 75px;
+    padding: 12px 16px;
+    margin-top: 30px; 
+}
+
+.mayliketitle {
+    width: 838px;
+    border: 3px;
+}
+
+.mayalsoimage {
+    width: 838px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.mayalsothumbnail {
+    width: 500px;
+    border: 3px;
+}   
+
+.contactbox {
+    display: flex;
+    justify-content: center;
+}
+
+.contactform {
+    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    color: #5c5c5c;
+    font-size: 25px;
+    border-radius: 3px solid rgba( 231,  102, 127);
+    padding: 20px;
+    width: 1000px;
+    border: 3px solid rgba( 231,  102, 127);
+    padding: 12px 16px;
+    min-height: 450px;
+    margin-top: 30px;
+  }
+
+input[type=text], select, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    width: 100%;
+    padding: 12px; 
+    border: 3px solid #B3B3B3;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 30px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+    padding: 12px 16px;
+  }
+  
+  input[type=submit] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    background-color: #B3B3B3;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(138, 138, 138);
+  }
+  
